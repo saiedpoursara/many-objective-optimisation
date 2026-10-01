@@ -28,37 +28,37 @@ experimental setup, performance assessment, and visualisation.
 
 ### Interactive geometric method using multiple reference points
 
-- `geometric_method_multiple_rps_dtlz4.py`  
+- [`geometric_method_multiple_rps_dtlz4.py`](geometric_method_multiple_rps_dtlz4.py)
   Implements an interactive geometric method based on multiple reference
   points, demonstrated on DTLZ4 instances with 3, 5, 7, 9, 15, and 20
   objectives.
 
 ### Optimisation and performance assessment
 
-- `closest_point_to_pf_from_dm_goal_dtlz4.py`  
+- [`closest_point_to_pf_from_dm_goal_dtlz4.py`](closest_point_to_pf_from_dm_goal_dtlz4.py)
   Calculates the point on the DTLZ4 Pareto front closest to a simulated
   decision maker goal using differential evolution, across instances with
   different numbers of objectives.
 
-- `dtlz4_closest_point_to_dm_goal_ga.py`  
+- [`dtlz4_closest_point_to_dm_goal_ga.py`](dtlz4_closest_point_to_dm_goal_ga.py)
   Uses a binary-coded genetic algorithm to search for a DTLZ4 Pareto-optimal
   solution closest to a simulated decision maker goal.
 
-- `dtlz4_payoff_table.py`  
+- [`dtlz4_payoff_table.py`](dtlz4_payoff_table.py)
   Generates the pseudo-payoff table used in the DTLZ4 experiments.
 
-- `minimum_weighted_distance_to_goal.py`  
+- [`minimum_weighted_distance_to_goal.py`](minimum_weighted_distance_to_goal.py)
   Calculates the minimum weighted distance from a decision maker goal to
   hyperspherical and multiaxial ellipsoidal surfaces.
 
 ### Sampling and visualisation
 
-- `projection_directions_and_weight_vectors_ternary_plots.py`  
+- [`projection_directions_and_weight_vectors_ternary_plots.py`](projection_directions_and_weight_vectors_ternary_plots.py)
   Generates projection directions associated with the reference points and
   the corresponding weight vectors used in the achievement scalarising
   function, and visualises them using ternary plots.
 
-- `uniform_points_on_hypersphere.py`  
+- [`uniform_points_on_hypersphere.py`](uniform_points_on_hypersphere.py)
   Generates uniformly distributed points on a hypersphere and applies an
   iterative filtering procedure to select a more dispersed subset.
 
